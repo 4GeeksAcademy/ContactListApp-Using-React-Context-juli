@@ -42,9 +42,9 @@ const getState = ({ getStore, getActions, setStore }) => {
 			// funcion para importar mis contactos
 			getContacts: async () => {
 				try {
-					const resp = await fetch(process.env.BACKEND_URL + "agendas/juliju");
+					const resp = await fetch ("https://playground.4geeks.com/contact/agendas/juliju");
 					if (resp.status == 404) {
-						await createUsuario()
+						await getActions().createUsuario()
 						return
 					}
 					const data = await resp.json()

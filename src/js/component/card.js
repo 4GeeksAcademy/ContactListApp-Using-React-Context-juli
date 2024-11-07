@@ -35,7 +35,7 @@ export const ContactCard = ({ id, name, image, email, phone, address, edit }) =>
                                                 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div className="modal-body">
-                                            ¿Deseas borrar a {name}?
+                                                ¿Deseas borrar a {name}?
                                             </div>
                                             <div className="modal-footer">
                                                 <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>

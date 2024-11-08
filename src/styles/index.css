@@ -7,22 +7,18 @@
 }
 
 body {
-    background-color: #92badc;
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-  
+    background-image: url('https://images6.alphacoders.com/119/thumb-1920-1197845.png');
+    background-size: cover; /* Asegúrate de que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    min-height: 100vh; /* Asegúrate de que el cuerpo ocupe al menos la altura de la ventana */
 }
 
-/* .card {
+
+.card {
     border: 1px solid ; 
     transition: transform 0.3s ease-in-out;  
-} */
-
-/* .card:hover {
-    transform: scale(1.05);  
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
-}  */
+}
 
 .card-body {
     padding: 1.25rem; 
